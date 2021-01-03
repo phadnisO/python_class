@@ -1,0 +1,20 @@
+keys = ["SRK", "Salman""Amir"]
+Names={
+  "SRK" : 20,
+  "Salman" : 40,
+  "Amir": 50,
+}
+print (Names)
+for key_label in Names.keys():
+  print(key_label)
+for key_label in Names.values():
+  print(key_label)
+Names["Akshay"] = 60
+print (Names)
+for key_label,key_val in Names.items():
+  print(key_label+" " + str (key_val))
+Names["Salman"]=80
+print(Names)
+ 
+total= Names["Salman"]- Names["Amir"]
+print(total)
