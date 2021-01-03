@@ -18,3 +18,20 @@ print(Names)
  
 total= Names["Salman"]- Names["Amir"]
 print(total)
+
+
+#output
+#{'SRK': 20, 'Salman': 40, 'Amir': 50}
+#SRK
+#Salman
+#Amir
+#20
+#40
+#50
+#{'SRK': 20, 'Salman': 40, 'Amir': 50, 'Akshay': 60}
+#SRK 20
+#Salman 40
+#Amir 50
+#Akshay 60
+#{'SRK': 20, 'Salman': 80, 'Amir': 50, 'Akshay': 60}
+#30
